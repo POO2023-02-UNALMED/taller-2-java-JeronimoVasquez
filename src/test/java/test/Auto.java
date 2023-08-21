@@ -17,8 +17,8 @@ public class Auto {
 		
 	}
 	
-	public String verificarintegridad() {
-		if(this.registro == this.motor.registro) {
+	public String verificarIntegridad() {
+		if(this.registro == motor.registro) {
 			
 			int c = 0;
 			
