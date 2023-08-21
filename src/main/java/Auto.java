@@ -25,7 +25,7 @@ public class Auto {
 	}
 	
 	public String verificarIntegridad() {
-		if(this.registro == motor.registro) {
+		if(this.registro == this.motor.registro) {
 			
 			int c = 0;
 			
@@ -33,7 +33,7 @@ public class Auto {
 				
 				if (asientos[i] != null) {
 					
-					if (asientos[i].registro == this.registro) {
+					if (asientos[i].registro == this.registro && asientos[i].registro == this.motor.registro) {
 						c++;
 					}
 				}
