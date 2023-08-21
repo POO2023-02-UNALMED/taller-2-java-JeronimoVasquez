@@ -21,7 +21,7 @@ public class Asiento {
 		else if (color == "blanco")
 			this.color = color;
 		else {
-			this.color = this.color;
+			
 			System.out.println("Color ingresado no permitido");
 		}
 		
