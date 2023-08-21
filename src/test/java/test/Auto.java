@@ -13,14 +13,17 @@ public class Auto {
 	
 	public int cantidadAsientos() {
 		
-		int contador = 0;
-		for (int i = 0; i > asientos.length; i++) {
+		int c = 0;
+		
+		for (int i = 0; i  < asientos.length; i++) {
 			
 			if (asientos[i] != null) {
-				contador++;
+				c++;
 			}
 		}
-		return contador;
+		
+		return c;
+		
 		
 	}
 	
