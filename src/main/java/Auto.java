@@ -22,7 +22,7 @@ public class Auto {
 			
 			int c = 0;
 			
-			for(int i = 0;i > asientos.length; i++) {
+			for(int i = 0;i >= asientos.length; i++) {
 				
 				if (asientos[i].registro == this.registro)
 					c++;
