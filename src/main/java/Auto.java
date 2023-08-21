@@ -37,9 +37,7 @@ public class Auto {
 						c++;
 					}
 				}
-				else {
-					continue;
-				}
+				
 				
 				
 			}
